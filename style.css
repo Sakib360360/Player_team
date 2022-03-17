@@ -1,0 +1,18 @@
+body{
+    background-color: #F3F1FF;
+}
+
+/* --------------------------------------top player-------------------------------------------------- */
+.top_player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
