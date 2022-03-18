@@ -1,18 +1,73 @@
 body{
     background-color: #F3F1FF;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 /* --------------------------------------top player-------------------------------------------------- */
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    
+}
+.sectiontitle{
+    color: #562EFF;
+    font-size: 24px;
+    margin-left: 35px;
+}
+
 .top_player{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.top_player h2{
+    
 }
 .player{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 12px 0px;
 }
 .player img{
     width: 56px;
     height: 56px;
+}
+.player h2{
+    padding-left: 5px;
+}
+hr{
+    width: 807px;
+    color:#D1D1D1;
+    margin: 64px 0px;
+}
+/* -----------------------------------------Blog section-------------------------------------- */
+.topblog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+}
+.blogimg{
+    display: flex;
+    justify-content: center;
+}
+.bloginfo{
+    margin: -14px 9px;
+}
+.bloginfo h3{
+    font-size: 14px;
+}
+.blogimg img{
+    width: 177px;
+    height: 107px;
+}
+.blogimg h2{
+    width: 165px;
+    font-size: 17px;
 }
