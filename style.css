@@ -14,6 +14,7 @@ main{
 .container{
     background-color: #ffffff;
     width: 870px;
+    border-radius: 5px;
     
 }
 .sectiontitle{
@@ -70,4 +71,10 @@ hr{
 .blogimg h2{
     width: 165px;
     font-size: 17px;
+}/* -----------------------------------------latest section-------------------------------------- */
+.latestsec{
+    width: 870px;
+    background: #ffffff;
+    margin-top: 25px;
+    border-radius: 5px;
 }
